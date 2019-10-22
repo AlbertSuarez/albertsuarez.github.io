@@ -1,6 +1,6 @@
 # Albert Suarez
 
-💻 Personal Landing page.
+🙋‍♂️ Personal Landing page.
 
 ## Designer
 
