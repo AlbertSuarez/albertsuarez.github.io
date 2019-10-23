@@ -1,12 +1,10 @@
 # Site
 title:              Albert Suarez
-bio:                'Software Engineer Personal Landing page'
-description:        'Software Engineer Personal Landing page'
-reading_time:       true
-words_per_minute:   200
+bio:                'Software Engineer'
+description:        'Software Engineer'
 logo:               'assets/img/logo.png'
 background:         'assets/img/placeholder-big.jpg'
-tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
+tiled_bg:           false  # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://asuarez.dev
 
@@ -25,16 +23,18 @@ sass:
   sass_dir:         _sass
   style:            compressed
 
+# Google
+google:
+  analytics:        UA-110581543-1
+
 # Social
 # if you don't have any of social below, comment the line.
 email:              hi@asuarez.dev
 twitter:            alsumo95
-facebook:           suaarezz
 github-url:         AlbertSuarez
-stackoverflow:      8130312/albert-suárez-molgó
 linkedin:           albertsuarezmolgo
 instagram:          albert.suarezz
-medium:             '@alsumo95'
+spotify:            alsumo95
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
