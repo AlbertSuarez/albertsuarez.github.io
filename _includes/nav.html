@@ -35,6 +35,12 @@
                     {% if site.spotify %}<li>
                         <a href="https://open.spotify.com/user/{{ site.spotify }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-spotify"></i> Spotify</a>
                     </li>{% endif %}
+                    {% if site.resume %}<li>
+                        <a href="/{{ site.resume }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-file"></i> Resume</a>
+                    </li>{% endif %}
+                    {% if site.travel %}<li>
+                        <a href="/{{ site.travel }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-plane"></i> Travel</a>
+                    </li>{% endif %}
 				</ul><!-- /.dl-submenu -->
 			</li>
 			{% for link in site.data.navigation %}
