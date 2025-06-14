@@ -41,6 +41,9 @@
                     {% if site.travel %}<li>
                         <a href="/{{ site.travel }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-plane"></i> Travel</a>
                     </li>{% endif %}
+                    {% if site.climbing %}<li>
+                        <a href="{{ site.climbing }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-mountain"></i> Climbing</a>
+                    </li>{% endif %}
 				</ul><!-- /.dl-submenu -->
 			</li>
 			{% for link in site.data.navigation %}
