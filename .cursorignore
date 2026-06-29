@@ -1,8 +1,36 @@
 # Generated .cursorignore for Restb.ai
-# This file tells Cursor which files to ignore for indexing and AI context.
+# Standard patterns for all Restb.ai repositories
 
-*.log
+# IDEs and OS noise
 .DS_Store
-.idea/
 .vscode/
+.idea/
+
+# Logs
+*.log
 logs/
+
+# Python noise (excluding .env files/folders per your request)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+htmlcov/
+
+# Node/Angular noise
+node_modules/
+.angular/
+dist/
+tmp/
+out-tsc/
+bazel-out/
+.npm/
+.eslintcache/
