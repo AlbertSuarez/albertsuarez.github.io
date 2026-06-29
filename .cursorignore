@@ -10,7 +10,7 @@
 *.log
 logs/
 
-# Python noise (excluding .env files/folders per your request)
+# Python noise
 __pycache__/
 *.pyc
 *.pyo
